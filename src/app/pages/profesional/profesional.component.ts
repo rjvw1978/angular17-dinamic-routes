@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './profesional.component.css'
 })
 export class ProfesionalComponent {
-  @Input("id") id!: any;
+  @Input() id!: String;
 }

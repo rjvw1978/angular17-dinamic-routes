@@ -7,7 +7,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { ProfesionalComponent } from './pages/profesional/profesional.component';
 
 export const routes: Routes = [
-    {path: "home", component:DashboardComponent},
+    {path:"home", component:DashboardComponent},
     {path:"iniciar-sesion", component:IniciarSesionComponent},
     {path:"registro", component:RegistroComponent},
     {path:"quienes-somos", component:QuienesSomosComponent},
